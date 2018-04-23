@@ -59,15 +59,15 @@ int CircularQueue::deque()
 	//Queue last deque reset to empty
 	else if(m_front ==  SIZE-1)
 	{
-		m_array[m_front] = -1;
 		value = m_array[m_front];
+		m_array[m_front] = -1;
 		m_front = -1;
 		m_rear = -1;
 	}
 	else
 	{
-		m_array[m_front] = -1;
 		value = m_array[m_front];
+		m_array[m_front] = -1;
 		m_front++;
 	}
 	return value;

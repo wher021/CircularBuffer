@@ -14,21 +14,14 @@ int main()
 	cq.enque(2);
 	cq.enque(3);
 	cq.enque(4);
+	(void)cq.deque();
+	(void)cq.deque();
 	cq.enque(5);
 	cq.enque(6);
-	(void)cq.deque();
-	(void)cq.deque();
+	cq.enque(7);
+	cq.enque(8);
+	std::cout<<"daasdsa"<<cq.deque();
 	cq.print();
-	std::cout<<"newlin"<<std::endl;
-	cq.enque(77);
-	cq.enque(77);
-	cq.enque(77);
-	cq.print();
-	std::cout<<"newlin"<<std::endl;
-	cq.enque(88);
-	cq.print();
-	cq.enque(88);
-	cq.enque(88);
 
 
 }
